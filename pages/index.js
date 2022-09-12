@@ -18,9 +18,6 @@ export default function Home() {
             df fdkfdjfdfjdf default fdkfdjfdfjdff
             fkdjfdljf;
           </p>
-          <Image>
-
-          </Image>
   </>
     // </Container>
   )
