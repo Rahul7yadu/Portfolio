@@ -12,12 +12,12 @@ const Navbar=()=>{
                 </Tab>
                 </Link>
                 <Link href={'/skills'}>
-                <Tab>
+                <Tab _selected={{bg:'blue.100'}}>
                 Skills
                 </Tab>
                 </Link>
                 <Link href={'/projects'}>
-                <Tab>
+                <Tab _selected={{bg:'blue.100'}}>
                 Projects
                 </Tab>
                 </Link>
