@@ -14,8 +14,8 @@ const Skills=()=>{
             <Badge>Redux</Badge>
             <ButtonGroup>
 
-            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}><a href='https://devconnect-rahul.herokuapp.com/' target='_blank'>View</a></Button>
-            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}> <a href='https://github.com/Rahul7yadu/Devconnect' target={'_blank'}>github</a></Button>
+            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}><a href='https://devconnect-rahul.herokuapp.com/' >View</a></Button>
+            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}> <a href='https://github.com/Rahul7yadu/Devconnect'>github</a></Button>
             </ButtonGroup>
             
         </Box>
@@ -25,8 +25,8 @@ const Skills=()=>{
             <Badge>nodejs</Badge>
             <Badge>ExpressJs</Badge>
             <ButtonGroup>
-            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}><a href='https://devconnect-rahul.herokuapp.com/' target='_blank'>View</a></Button>
-            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}> <a href='https://github.com/Rahul7yadu/Devconnect' target={'_blank'}>github</a></Button>
+            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}><a href='https://devconnect-rahul.herokuapp.com/' >View</a></Button>
+            <Button colorScheme='blackAlpha'  size='xs' variant={'ghost'}> <a href='https://github.com/Rahul7yadu/Devconnect' >github</a></Button>
             </ButtonGroup>
         </Box>
         </Container>

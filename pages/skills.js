@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <>
       <Container maxW={'3xl'}  display='flex' alignItems={'center'} flexWrap='wrap' justifyContent={'center'} >
-      {ImgUrls.map(({src,name})=><CoverBox src={src} name={name}/>)}
+      {ImgUrls.map(({src,name},index)=><CoverBox src={src} name={name} key={index}/>)}
       </Container>
 
     </>
