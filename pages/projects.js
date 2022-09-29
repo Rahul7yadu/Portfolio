@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Box ,Button,Container, Text,Stack,ButtonGroup, Badge} from "@chakra-ui/react"
 const taskApi = 'https://github.com/Rahul7yadu/task-manger-api';
 const Skills=()=>{
@@ -5,7 +6,7 @@ const Skills=()=>{
         <Container align='center'>
 
         <Box borderRadius = 'lg'  maxW='2xl'  shadow='lg' align='center' minH='12' mb='5'>
-            <img src = 'devconnect.png' height='100%'/>
+            <img src = '/devconnect.png' />
             <Text fontSize={'lg'} fontWeight='bold'>DEVCONNECT.A social media app for developers</Text>
             <Badge colorScheme={'orange'}>React</Badge>
             <Badge >NodeJs</Badge>
@@ -20,7 +21,7 @@ const Skills=()=>{
             
         </Box>
         <Box borderRadius = 'lg'  maxW='2xl'  shadow='lg' align='center' maxH='lg'>
-            <img src='task.png'></img>
+            <img src='/task.png' ></img>
             <Text fontSize={'lg'} fontWeight='bold'>Task manager Api</Text>
             <Badge>nodejs</Badge>
             <Badge>ExpressJs</Badge>

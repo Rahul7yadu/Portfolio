@@ -13,7 +13,7 @@ export default function Home() {
           </Box>
           <Container align='center'>
 
-          <img src='/profile2.jpg' className='profile-pic'/>
+          <Image src='/profile2.jpg' className='profile-pic' width={'200px'} height='200px'/>
 
           
           </Container>
