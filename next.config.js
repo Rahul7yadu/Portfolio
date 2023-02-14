@@ -8,3 +8,5 @@ images: {
 }
 
 module.exports = nextConfig
+
+

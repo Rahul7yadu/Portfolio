@@ -1,4 +1,4 @@
-import { Container, Box } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
 import CoverBox from "../components/CoverBox";
 const ImgUrls = [
 {src:'/Html-css.png',name:'html,css'},
@@ -17,11 +17,10 @@ const ImgUrls = [
 ]
 export default function Projects() {
   return (
-    <>
-      <Container maxW={'3xl'}  display='flex' alignItems={'center'} flexWrap='wrap' justifyContent={'center'} >
-      {ImgUrls.map(({src,name},index)=><CoverBox src={src} name={name} key={index}/>)}
-      </Container>
+    <Container align='center'>
 
-    </>
+      {ImgUrls.map(({src,name},index)=><CoverBox src={src} name={name} key={index}/>)}
+
+    </Container>
   )
 }
