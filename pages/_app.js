@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import '../styles/style.css'
-import {ChakraProvider} from '@chakra-ui/react'
+import {ChakraProvider,ColorModeScript} from '@chakra-ui/react'
 import Layout from '../components/layout/Layout'
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +8,8 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </ChakraProvider>)
+     </ChakraProvider>
+    )
 }
 
 export default MyApp
